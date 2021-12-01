@@ -10,7 +10,7 @@
     .button-none {
         display: none;
     }
-    nav {
+    header nav {
         display: none;
     }
     #icon-burger {
@@ -22,11 +22,15 @@
     .main-left {
         width: 100%;
         padding: 0 25px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
     }
     .tittle-main {
         text-align: center;
         font-size: 50px;
         margin-top: -30px;
+        line-height: 55px;
     }
 
     .main-ilustration,.main-ilustration img {
@@ -54,6 +58,7 @@
     }
     .tittle-about {
         text-align: center;
+        line-height: 40px;
     }
     .content {
         width: 100%;
@@ -71,13 +76,15 @@
         background-color: #f3e7e5;
     }
     .title-rectangle {
-        width: 80%;
+        width: 70%;
         text-align: center;
-        margin-bottom: 20px;
+        padding: 20px 0;
+        font-size: 35px;
     }
     .content-footer {
         flex-direction: column-reverse;
         height: auto;
+        padding: 40px 0 10px;
     }    
     .logo-redes {
         display: flex;
@@ -86,6 +93,7 @@
     .logo-footer {
         width: 70%;
         margin: 0 auto;
+        margin-top: 15px;
     }
     .icons-footer {
         display: flex;
@@ -95,7 +103,28 @@
     .nav-footer-container {
         display: flex;
         justify-content: space-around;
+        width: 100%;
+        margin-top: 40px;
     }
+    form {
+       display: flex;
+       justify-content: center;
+       width: 100%;
+    }
+
+    .form-email {
+        width: 60%;
+        margin-right: 10px;
+    }
+
+    #input-footer {
+        width: 100%;
+    }
+
+    #paragraph-input {
+        display: none;
+    }
+
     #copy-footer{
         display: none;
     }
