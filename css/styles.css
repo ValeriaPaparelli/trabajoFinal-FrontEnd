@@ -28,11 +28,6 @@ header {
     margin: 0 auto;
 }
 
-#logo {
-    cursor: pointer;
-}
-
-
 /*Menú*/
 
 #icon-burger {
@@ -133,8 +128,8 @@ nav ul a:hover {
 
 .content {
     display: flex;
-    margin-bottom: 15px;
     align-items: flex-start;
+    margin-bottom: 15px;
 }
 
 .numero1::before {
@@ -235,7 +230,7 @@ nav ul a:hover {
     align-items: center;
 }
 
-.reverse {
+.button-reverse     {
     background-color: white;
     color: #F3603B;
 }

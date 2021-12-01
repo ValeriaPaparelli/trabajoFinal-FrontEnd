@@ -4,9 +4,9 @@
         margin: 0 auto;
     }
     header {
-        justify-content: space-around;
+      justify-content: space-between;
     }
-    .none {
+    .button-none {
         display: none;
     }
     nav {
