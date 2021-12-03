@@ -13,6 +13,12 @@ body {
     background-position: right -200px;
 }
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
 /*****HEADER*****/
 
 header {
@@ -23,12 +29,11 @@ header {
     padding: 0 16px 0 0;
 }
 
-.container {
-    width: 1200px;
-    margin: 0 auto;
+#logo-header {
+    cursor: pointer;
 }
 
-/*Menú*/
+/*Header - Menú*/
 
 #icon-burger {
     display: none;
@@ -54,6 +59,8 @@ nav ul a:hover {
     color: rgb(143, 148, 167);
 }
 
+/*****BUTTON*****/
+
 .button-get {
     width: 134px;
     padding: 12.5px 0;
@@ -71,7 +78,7 @@ nav ul a:hover {
     opacity: 0.8;
 }
 
-/*****SECCIÓN MAIN*****/
+/*****SECTION MAIN*****/
 
 .section-main {
     display: flex;
@@ -85,7 +92,7 @@ nav ul a:hover {
 
 .tittle-main {
     color: #232C50;
-    font-size: 58px;
+    font-size: 54px;
     margin-top: 20px;
     margin-bottom: 40px;
     line-height: 62px;
@@ -99,7 +106,7 @@ nav ul a:hover {
    color: rgb(143, 148, 167);
 }
 
-/*****SECCIÓN NOSOTROS*****/
+/*****SECTION ABOUT*****/
 
 .section-about {
     margin-top: 40px;
@@ -133,7 +140,7 @@ nav ul a:hover {
 }
 
 .numero1::before {
-    content: '1';
+    content: '01';
     background-color: #F3603B;
     padding: 5px 20px;
     border-radius: 15px;
@@ -142,7 +149,7 @@ nav ul a:hover {
 }
 
 .numero2::before {
-    content: '2';
+    content: '02';
     background-color: #F3603B;
     padding: 5px 20px;
     border-radius: 15px;
@@ -151,7 +158,7 @@ nav ul a:hover {
 }
 
 .numero3::before {
-    content: '3';
+    content: '03';
     background-color: #F3603B;
     padding: 5px 20px;
     border-radius: 15px;
@@ -165,7 +172,7 @@ nav ul a:hover {
     margin-bottom: 10px;
 }
 
-/*****SECCIÓN CARROUSEL*****/
+/*****SECTION CARROUSEL*****/
 
 .section-carrousel {
     width: 100%;
@@ -175,8 +182,8 @@ nav ul a:hover {
     font-size: 36px;
     color: #232C50;
     text-align: center;
-    margin-top: 60px;
-    margin-bottom: 120px;
+    margin-top: 80px;
+    margin-bottom: 140px;
 }
 
 .container-carrousel {
@@ -214,6 +221,17 @@ nav ul a:hover {
 .button-carrousel {
     text-align: center;
     margin-top: 40px;
+}
+
+#icon-carrousel {
+    display: flex;
+    justify-content: center;
+}
+
+.fa-ellipsis {
+    font-size: 40px;
+    color: #F3603B;
+    display: none;
 }
 
 /*****ÚLTIMA SECCIÓN****/
@@ -330,6 +348,7 @@ footer {
     border: none;
     background-color: rgb(242, 95, 58);
     color: white;
+    cursor: pointer;
 }
 
 #button-footer:hover {

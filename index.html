@@ -15,7 +15,7 @@
 <body>
     <header class="container"> <!--HEADER-Logo-Menú-Botón-->
         <div>
-            <img src="./imagenes/logo.svg" alt="logo">
+            <img id="logo-header" src="./imagenes/logo.svg" alt="logo">
         </div>
         <nav>
             <ul>
@@ -29,7 +29,7 @@
         <img id="icon-burger" src="./imagenes/icon-hamburger.svg" alt="Icono hamburguesa">
         <button class="button-get button-none">Get Started</button>
     </header>
-    <main class="section-main container"> <!--SECCIÓN MAIN-->
+    <main class="section-main container"> <!--SECTION MAIN-->
         <div class="main-left">
             <h1 class="tittle-main">Bring everyone together to build better products.</h1>
             <p class="paragraph">Manage makes it simple for software teams to plan day-to-day tasks while keeping the large team goals in view</p>
@@ -39,7 +39,7 @@
             <img src="./imagenes/illustration-intro.svg" alt="Imágen Gráfico">
         </div>
     </main>
-    <section class="section-about container"> <!--SECCIÓN NOSOTROS-->
+    <section class="section-about container"> <!--SECTION ABOUT-->
         <div class="about-description">
             <h2 class="tittle-about">What´s different about Manage?</h2>
             <p class="paragraph">Manage provides all the functionality your teas needs, without the complexity. 
@@ -69,7 +69,7 @@
             </div>
         </div>
     </section>
-    <section class="section-carrousel"> <!--SECCIÓN CARROUSEL-->
+    <section class="section-carrousel"> <!--SECTION CARROUSEL-->
         <h2 class="tittle-carrousel">What they´ve said</h2>
         <div class="container-carrousel">
             <div class="content-avatar avatar-none">
@@ -82,20 +82,23 @@
                 <img class="img-avatar" src="./imagenes/avatar-ali.png" alt="Avatar Ali">
                 <h4 class="title-avatar">Ali Bravo</h4>
                 <p class="paragraph-avatar">“We have been able to cancel so many other subscriptions since using manage. 
-                    There ir no more cross-channel confusion and everyone is much more focused.”</p>
-            </div>
+                    There ir no more cross-channel confusion and everyone is much more focused.”</p>  
+            </div>  
             <div class="content-avatar avatar-none">
                 <img class="img-avatar" src="./imagenes/avatar-richard.png" alt="Avatar Richard">
                 <h4 class="title-avatar">Richard Watts</h4>
                 <p class="paragraph-avatar">“Manage allows us to provide structure and process. It keeps us organized and focused. 
-                    I can´t stop recommending them to everyone i talk to!”</p>
+                    I can´t stop recommending them to everyone i talk to!”</p>  
             </div>
+        </div>
+        <div id="icon-carrousel">
+            <i class="fa-solid fa-ellipsis"></i>
         </div>
         <div class="button-carrousel">
             <button class="button-get">Get Started</button>
         </div>
     </section>
-    <section class="section-rectangle">
+    <section class="section-rectangle"> <!--ÚLTIMA SECCIÓN-->
         <div class="container content-rectangle">
             <h3 class="title-rectangle">Simplify how your team works today.</h3>
             <button class="button-get button-reverse">Get Started</button>
@@ -103,7 +106,7 @@
     </section>
     <footer><!--FOOTER-->
         <div class="container content-footer">
-            <div class="logo-redes">
+            <div class="logo-redes"> <!--Iconos-->
                 <img class="logo-footer" src="./imagenes/Logo-2.png" alt="Logo">
                 <div class="icons-footer">
                    <a href="#"><i class="fab fa-facebook-square"></i></a>
@@ -113,7 +116,7 @@
                    <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
-            <div class="nav-footer-container">
+            <div class="nav-footer-container"> <!--Menú Footer-->
                 <nav>
                     <ul class="nav-footer">
                         <li><a href="#">Home</a></li>
